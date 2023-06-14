@@ -1,0 +1,342 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Culturals Mela | IITI</title>
+		<!-- Latest compiled and minified CSS -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-K8WN52GT45"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-K8WN52GT45");
+		</script>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link href="./css/clubs.css" rel="stylesheet" />
+		<link href="./css/index.css" rel="stylesheet" />
+		<script src="./js/index.js"></script>
+	</head>
+	<body onresize="setIframeWidth()" onload="setIframeWidth()">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"
+				><img src="./img/cultLogo.png" alt="Home" /><span style="font-weight: bold"
+					>CULTURALS IITI</span
+				></a
+			>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#timeline">Timeline</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#events">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="openingPage fullHeight container-fluid" id="home">
+			<div class="div1">
+				<img src="./img/logo.png" alt="" />
+				<br />
+				<a href="#about"><button class="btn spcbtn">Know More</button></a>
+			</div>
+			<div class="rect1">
+				<div class="rect2"></div>
+				<img src="./img/m_logo.png" class="innerRect" alt="" />
+			</div>
+		</div>
+		<div class="page2" id="about">
+			<iframe
+				width="600"
+				height="337.5"
+				src="https://www.youtube.com/embed/-S7lTeIZkXI"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+				style="max-width: 100vw; padding: 10px"
+				id="videoEmbedding"
+			></iframe>
+			<div>
+				<h2>CULTURALS MELA</h2>
+				<p>
+					Get ready for a week filled with fun and memories, for the Culturals Mela,
+					organized by the Culturals Council of IIT Indore, is here! <br />
+					You might imagine things will be limited by the circumstances of the pandemic.
+					Still, here we focus instead on using this as an opportunity by bringing you
+					experiences that would not be possible offline. Become a part of this grand
+					exhibition, enjoy events performed by professionals from across the oceans and
+					beyond the borders, all from the comfort of your very own home sweet home. An
+					unforgettable fusion of Enthusiasm, Excitement, Enjoyment serves as the
+					highlight of an otherwise rather dull time stuck in your home.<br />
+					15+ events, talks, workshops, and much more, conducted by as many as 12 clubs,
+					from the 19th to the 25th of April. Mark your calendars now, and be there to
+					witness this all-encompassing spectacle!
+				</p>
+				<br />
+				<a href="#events"><button class="btn spcbtn">Events</button></a>
+			</div>
+		</div>
+		<div class="timeline mb-5" id="timeline">
+			<h2 class="text-center mb-5">TIMELINE</h2>
+			<div class="tlstuff">
+				<div class="tl">
+					<h3>Start</h3>
+					<div class="circles redborder" onclick="show(0)">
+						<div>19</div>
+						<div>April</div>
+					</div>
+					<div class="circles" onclick="show(1)">
+						<div>20</div>
+						<div>April</div>
+					</div>
+					<div class="circles redborder" onclick="show(2)">
+						<div>21</div>
+						<div>April</div>
+					</div>
+					<div class="circles" onclick="show(3)">
+						<div>22</div>
+						<div>April</div>
+					</div>
+					<div class="circles redborder" onclick="show(4)">
+						<div>23</div>
+						<div>April</div>
+					</div>
+					<div class="circles" onclick="show(5)">
+						<div>24</div>
+						<div>April</div>
+					</div>
+					<div class="circles redborder" onclick="show(6)">
+						<div>25</div>
+						<div>April</div>
+					</div>
+					<h3>Finish</h3>
+				</div>
+				<div class="desc">
+					<h3>April 19, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<h4>Meditation Workshop</h4>
+							<p>6.30 AM onwards</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 20, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<p>N/A</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 21, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<!-- <div>
+							<h4>Talk</h4>
+							<h5>Mr. Ripu Daman - Sustainability and fitness</h5>
+							<p>6 PM onwards</p>
+						</div> -->
+						<div>
+							<h4>Event</h4>
+							<h5>Online Story Writing - Srijan</h5>
+							<p>Deadline: April 21, 2021</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 22, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<h4>Talk</h4>
+							<h5>Mr. Jadhav Payeng - The story of Molai forests</h5>
+							<p>4 PM onwards</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 23, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<h4>Talk</h4>
+							<h5>
+								Ms. Himani Gupta - The Story of Kriti and Social entrepreneurship in
+								India
+							</h5>
+							<p>4 PM onwards</p>
+						</div>
+						<div>
+							<h4>Talk</h4>
+							<h5>
+								Ms. Medha Patkar - Environmental movements, and the role of
+								state/governments
+							</h5>
+							<p>5 PM onwards</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Cinereel - The Cinephiles</h5>
+							<p>Deadline: April 23, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Poetry Slam - The Literary Club</h5>
+							<p>Deadline: April 23, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Solo Singing - Music Club</h5>
+							<p>Deadline: April 23, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Solo Instrumentalist - Music Club</h5>
+							<p>Deadline: April 23, 2021</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 24, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<h4>Event</h4>
+							<h5>On The Beat 2.0 - Dance Club</h5>
+							<p>Deadline: April 24, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Monochrome - Kalakriti</h5>
+							<p>Deadline: April 24, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Monoact - Aaina</h5>
+							<p>Deadline: April 24, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>You Are A Meme Now! - Aaina</h5>
+							<p>Deadline: April 24, 2021</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+				<div class="desc">
+					<h3>April 25, 2021</h3>
+					<br />
+					<div class="innerDesc">
+						<div>
+							<h4>Talk</h4>
+							<h5>Dr. Rajendra Singh - Water Literacy</h5>
+							<p>6 PM onwards</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Shutter Up - Mystic Hues</h5>
+							<p>Deadline: April 25, 2021</p>
+						</div>
+						<div>
+							<h4>Event</h4>
+							<h5>Render - DOCM</h5>
+							<p>Deadline: April 25, 2021</p>
+						</div>
+					</div>
+					<button class="btn" onclick="hideall()">X</button>
+				</div>
+			</div>
+		</div>
+		<div class="page3 pb-5" id="events">
+			<h2 class="text-center mb-5">EVENTS</h2>
+			<div w3-include-html="./extras/competitions.html"></div>
+			<div w3-include-html="./extras/talks.html"></div>
+			<div w3-include-html="./extras/workshops.html"></div>
+		</div>
+		<div id="contact">
+			<div class="page4">
+				<!-- <div class="p41">
+					<a href="http://gymkhana.iiti.ac.in" target="_blank"
+						><img src="./img/gymkhana_logo.png" alt=""
+					/></a>
+				</div> -->
+				<div class="p41">
+					<!-- <a href="http://iiti.ac.in/" target="_blank"><img src="./img/iiti.png" alt="" /></a> -->
+					<a href="http://gymkhana.iiti.ac.in/culturals" target="_blank"
+						><img src="./img/cult_logo_white.png" alt=""
+					/></a>
+				</div>
+				<div>
+					<h3>CULTURALS, IIT INDORE</h3>
+					<p>
+						To provide a platform to nurture the talents, known and unknown.<br />
+						Collaborate. Cultivate. Create.
+					</p>
+				</div>
+				<div>
+					<h3>QUICK LINKS</h3>
+					<a href="http://gymkhana.iiti.ac.in//culturals/" target="_blank"
+						>Glimpses of Culturals IITI</a
+					>
+				</div>
+				<div>
+					<h3>CONTACT US</h3>
+					<p>
+						Varinder <a href="tel:+91 7508938751">+91 7508938751</a><br />
+						For any doubts,
+						<a href="mailto:cult.council@iiti.ac.in">cult.council@iiti.ac.in</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+	</body>
+</html>

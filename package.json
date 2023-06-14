@@ -1,0 +1,14 @@
+{
+    "name": "IITI",
+    "version": "1.0.0",
+    "description": "IITI Gymkhana Website",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "Akshay Prakash",
+    "license": "Copyright@IITI",
+    "devDependencies": {
+        "node-sass": "^4.12.0"
+    }
+}

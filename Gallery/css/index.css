@@ -1,0 +1,43 @@
+#rightIcon{
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	right: 0px;
+	color: black;
+	font-size: 48px;
+	cursor: pointer;
+	padding: 40px;
+	padding-top: 50vh;
+	height: 100%;
+}
+#rightIcon:hover, #leftIcon:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+#leftIcon{
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	color: black;
+	font-size: 48px;
+	cursor: pointer;
+	padding: 40px;
+	padding-top: 50vh;
+	height: 100%;
+}
+#photostack-1{
+	background-color: #aaa;
+}
+.photostack-current figcaption h2{
+	color: #333 !important;
+}
+.photostack figure{
+	border: 1px solid #676767;
+}
+@media only screen and (max-width: 600px) {
+  #rightIcon, #leftIcon{
+	padding: 10px;
+	padding-top: 50vh;
+  }
+}
