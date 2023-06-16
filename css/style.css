@@ -21,13 +21,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
 @keyframes slider {
     0%,
     100% {
-        background-image: url(../img/IITI.jpg);
+        background-image: url(../img/IITIbuilding.jpg);
     }
     25% {
         background-image: url(../img/Amit.jpg);
     }
     50% {
-        background-image: url(../img/ROBO.jpg);
+        background-image: url(../img/ROBO2.jpg);
     }
     75% {
         background-image: url(../img/STUD.jpg);
@@ -37,13 +37,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
 @keyframes slider1 {
     0%,
     100% {
-        background-image: url(../img/IITIphone.jpg);
+        background-image: url(../img/IITIbuildingPhone.jpg);
     }
     25% {
         background-image: url(../img/Amitphone.jpg);
     }
     50% {
-        background-image: url(../img/ROBOphone.jpg);
+        background-image: url(../img/ROBO2phone.jpg);
     }
     75% {
         background-image: url(../img/STUDphone.jpg);
