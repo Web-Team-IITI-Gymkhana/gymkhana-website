@@ -63,7 +63,7 @@
     position: relative;
     border-radius: 16px;
     padding: 2rem;
-    margin: 0 4rem 0 0;
+    margin: 0 4rem 0 4rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -300,6 +300,7 @@
 .mini-card h2 {
     font-size: 20px;
     margin: 0.25rem 0 auto 0;
+    font-family: 'poppins';
 }
 
 .mini-card:not(:first-child) {
@@ -462,7 +463,7 @@
 
 .club-heading{
     font-size: 25px !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     text-align: left;
     /* margin: -20px 0 10px 20px;   */
@@ -471,7 +472,7 @@
 @media (min-width: 1200px) {
     .club-heading{
         font-size: 32px !important;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'poppins';
         font-weight: 700;
         text-align: left;
         margin: 0 0 50px 20px;
@@ -486,11 +487,11 @@
 .read-article{
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins';
     color: #fff;
     line-height: 23px;
     text-shadow: #fff 2px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .read-article:hover{
