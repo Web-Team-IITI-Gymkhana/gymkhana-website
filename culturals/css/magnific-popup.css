@@ -349,3 +349,7 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+  .classes-item.set-bg{
+    background-color: #151515;
+  }
