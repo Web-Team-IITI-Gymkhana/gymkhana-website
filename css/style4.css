@@ -208,41 +208,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-
-.mini-card-grid {
-    scrollbar-color: #201c29;
-    scrollbar-width: 10px;
-    scrollbar-gutter: always;
-    padding: 3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
-.mini-card-grid::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-.mini-card-grid::-webkit-scrollbar-thumb {
-    background: #201c29;
-    border-radius: 10px;
-    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-}
-
-.mini-card-grid::-webkit-scrollbar-track {
-    background: linear-gradient(to right, #201c29, #201c29 1px, #17141d 1px, #17141d);
-}
-
-@media (max-width: 1200px) {
-    .mini-card-grid {
-        overflow-x: visible;
-    }
-}
-
 .mini-card-grid {
     scrollbar-color: #201c29;
     scrollbar-width: 10px;
