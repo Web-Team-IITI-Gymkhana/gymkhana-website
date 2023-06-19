@@ -1416,12 +1416,12 @@ div.card-faq-holder .faq-card{
 
 
 .footer {
-    background-color: #ffffff;
+    background-color: #100E17;
     padding: 4rem 0;
     font-size: 1.7rem;
     font-family:"poppins";
     text-align: left !important;
-    color: #000000;
+    color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -1483,7 +1483,7 @@ div.footer_info{
 }
 
 .footer_nav_buttons div a{
-    color: #000000;
+    color: #fff;
     text-decoration: none;
 }
 .footer_nav_buttons div.Home a:hover{
@@ -1500,7 +1500,7 @@ div.footer_info{
 }
 .footer_nav_buttons div.Events a:hover{
     color: #ffffff;
-    background-color: #070c24;
+    background-color: #2e8b57;
     padding:5px 10px 5px 10px;
     border-radius: 3px;
 }
