@@ -1353,7 +1353,7 @@ img {
 div.FAQs{
     display:flex;
     flex-direction: column;
-    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8));
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)),url(../img/IITI1.jpg);
     background-size: cover;
     color: #fff;
     overflow: hidden;
@@ -1374,13 +1374,27 @@ div.FAQs .card-faq-holder{
     flex-shrink: 0;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin: 10px;
+}
+.card-faq-holder::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card-faq-holder::-webkit-scrollbar-thumb {
+    background: #7dc721;
+    border-radius: 10px;
+
+}
+.card-faq-holder::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #92dd37;
 }
 div.card-faq-holder .faq-card{
     font-family: 'poppins';
     font-size: 1.5rem;
     font-weight: 400;
     color: #ffffff;
-    background-color: #22232D;
+    background-image: linear-gradient(to right bottom, #92dd37, #7dc721);
     display: flex;
     flex-direction: column;
     width:35rem;
