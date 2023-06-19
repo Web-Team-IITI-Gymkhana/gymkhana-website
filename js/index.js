@@ -162,7 +162,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 })
 
-
+var divs = document.getElementsByClassName('tags');
+for (var i = 0; i < divs.length; i++) {
+    var a = divs[i].getElementsByTagName('a');
+    if (a[0].getAttribute('target') == '_self') continue;
+    a[0].setAttribute('target', '_blank');
+}
 
 
 
