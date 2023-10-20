@@ -1225,7 +1225,7 @@ img {
         margin-left: 50% !important;
         transform: translateX(-50%) !important;
         background-color: #fff;
-        width: 62rem;
+        width: 100rem;
         height: 43rem;
         display: flex;
         position: relative; }
