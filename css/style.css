@@ -189,7 +189,6 @@ body {
     display: block;
     font-size: 8rem;
     font-weight: 400;
-    letter-spacing: 2rem;
     /*
         animation-name: moveInLeft;
         animation-duration: 1s;
@@ -1115,7 +1114,6 @@ img {
     display: block;
     font-size: 4.2rem;
     font-weight: 400;
-    letter-spacing: 2.4rem;
     margin-top: 0;
     padding: 0;
     animation: moveInRight 2s ease-out;
@@ -1252,7 +1250,7 @@ img {
 }
 
 .navigation__item {
-    margin: 1rem;
+    margin: 0.4rem;
 }
 
 .navigation__link:link,
@@ -1381,20 +1379,20 @@ div.FAQs .card-faq-holder{
     height: 10px;
 }
 .card-faq-holder::-webkit-scrollbar-thumb {
-    background: rgba(255, 119, 48, 1);
+    background: #0A6EBD;
     border-radius: 10px;
 
 }
 .card-faq-holder::-webkit-scrollbar-track {
     border-radius: 10px;
-    background: rgba(255, 185, 0, 1);
+    background: #5A96E3;
 }
 div.card-faq-holder .faq-card{
     font-family: 'poppins';
     font-size: 1.5rem;
     font-weight: 400;
     color: #ffffff;
-    background: linear-gradient(to right bottom, rgba(255, 185, 0, 1), rgba(255, 119, 48, 1));
+    background: #5A96E3;
     display: flex;
     flex-direction: column;
     width:35rem;
