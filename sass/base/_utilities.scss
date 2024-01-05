@@ -1,0 +1,87 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+  @include respond(tab-land){
+    margin-bottom: .7rem !important;
+  }
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
+}
+.u-margin-bottom-huge {
+  margin-bottom: 12rem !important;
+}
+
+.u-margin-top-small {
+  margin-top: 6rem !important;
+}
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+  @include respond(tab-land){
+    margin-top: 6rem !important;
+  }
+}
+
+.box {
+  transform: skew(-20deg);
+  display: inline-block;
+  border-style: solid;
+  border-color: $color-white;
+  &--back-animate {
+    transform: skew(20deg);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    @include respond(phone){
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.animated--border {
+  border: 1rem solid transparent;
+  box-sizing: border-box;
+  background-image: linear-gradient(white, white), linear-gradient(180deg, #ffb367, #b95dd7 50%, #00d7b9);
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 200%;
+  background-position: 0 0, 0 100%;
+  background-origin: padding-box, border-box;
+  animation: highlight 1s infinite alternate;
+}
+
+@keyframes highlight {
+  100% {
+    background-position: 0 0, 0 0;
+  }
+}
+
+
+.parallel{
+  background-color: transparent !important;
+  width: 100%;
+  height: 50vh;
+  mix-blend-mode: difference;
+}
+
+

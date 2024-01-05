@@ -1,0 +1,103 @@
+@keyframes slider {
+    0%,
+    100% {
+        background-image: url(../img/IITI.jpg);
+    }
+    25% {
+        background-image: url(../img/Amit.jpg);
+    }
+    50% {
+        background-image: url(../img/ROBO.jpg);
+    }
+    75% {
+        background-image: url(../img/STUD.jpg);
+    }
+}
+
+@keyframes slider1 {
+    0%,
+    100% {
+        background-image: url(../img/IITIphone.jpg);
+    }
+    25% {
+        background-image: url(../img/Amitphone.jpg);
+    }
+    50% {
+        background-image: url(../img/ROBOphone.jpg);
+    }
+    75% {
+        background-image: url(../img/STUDphone.jpg);
+    }
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8));
+    }
+    25% {
+        background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.8), rgba(86, 67, 250, 0.8));
+    }
+    50% {
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+    }
+    75% {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8));
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
